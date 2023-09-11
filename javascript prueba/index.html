@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de moneda</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Conversor de monedas Nacional
+            </h1>
+            <div class="card">
+                <h2>Pesos CLP</h2>
+                <input type="text" placeholder="Ingresa tu monto" id="ingresa-monto">
+                <h4>Moneda a convertir</h4>
+                <select name="Dolar" id="moneda-a-convertir">
+                    <option value="1">Dolar</option>
+                    <option value="2">Euro</option>
+                </select>
+                <button id="btn">Buscar</button>
+                <h3>Resultado <span id="Resultado"></span></h3>
+            </div>
+            <div id="chart"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
